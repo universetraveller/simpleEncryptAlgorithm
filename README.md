@@ -15,7 +15,8 @@ The principle is using arrays to calculate the unicode of a char and reforming i
 
 The input and the password are both saved in arrays, and for the need of encryption, the calculation of arrays will be "inverted order".
 
-Need to fix or update
+-Need to fix or update-
+
 In the unicode there are some numbers attached to null, we should avoid to get it, for that, the based calculation is add 169 to avoid getting null value.
 
 It has some drawbacks, such as the result of encryption will not include characters, and appear some odd sign.
